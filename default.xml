@@ -287,14 +287,14 @@
   <project path="frameworks/base" name="broadcomCM/android_frameworks_base" remote="github" revision="ics-plus" />
   <project path="system/core" name="broadcomCM/android_system_core" remote="github" revision="ics-plus" />
   <project path="bionic" name="broadcomCM/android_bionic" remote="github" revision="ics"/>
-  <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="github" revision="cm-11.0" />
   <project path="system/vold" name="Alberto96/android_system_vold" remote="github" revision="ics" />
   <!-- END: customized repos -->
   
   <!--START: device repos -->
-  <project path="hardware/broadcom/brcm_usrlib" name="androidarmv6/android_hardware_broadcom_brcm_usrlib" remote="github" revision="cm-11.0"/>
+  <project path="hardware/broadcom/brcm_usrlib" name="broadcomCM/android_hardware_broadcom_brcm_usrlib" remote="github" revision="ics"/>
   <project path="kernel/samsung/bcm21553-common" name="androidarmv6/android_kernel_samsung_bcm21553-common" remote="github" revision="cm-11.0"/>
   <project path="device/samsung/tassve" name="broadcomCM/android_device_samsung_tassve" remote="github" revision="ics"/>
   <project path="device/samsung/bcm21553-common" name="broadcomCM/android_device_samsung_bcm21553-common" remote="github" revision="ics"/>
+  <project path="vendor/samsung" name="androidarmv6/android_vendor_samsung" remote="github" revision="cm-11.0" />
   <!-- END: device repos -->
 </manifest>
