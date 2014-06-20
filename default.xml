@@ -141,7 +141,7 @@
   <project path="external/svox" name="CyanogenMod/android_external_svox" />
   <project path="external/tagsoup" name="CyanogenMod/android_external_tagsoup" />
   <project path="external/tcpdump" name="CyanogenMod/android_external_tcpdump" />
-  <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" remote="github" revision="cm-11.0" />
+  <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="external/tinyxml" name="CyanogenMod/android_external_tinyxml" />
   <project path="external/tremolo" name="CyanogenMod/android_external_tremolo" />
   <project path="external/v8" name="CyanogenMod/android_external_v8" />
@@ -291,7 +291,7 @@
   <!-- END: customized repos -->
   
   <!--START: device repos -->
-  <project path="hardware/broadcom/brcm_usrlib" name="broadcomCM/android_hardware_broadcom_brcm_usrlib" remote="github" revision="ics" />
+  <project path="hardware/broadcom/brcm_usrlib" name="broadcomCM/android_hardware_broadcom_brcm_usrlib" remote="github" revision="ics"/>
   <project path="kernel/samsung/bcm21553-common" name="Alberto96/android_kernel_samsung_bcm21553-common-CM9" remote="github" revision="ics"/>
   <project path="device/samsung/tassve" name="broadcomCM/android_device_samsung_tassve" remote="github" revision="ics"/>
   <project path="device/samsung/bcm21553-common" name="broadcomCM/android_device_samsung_bcm21553-common" remote="github" revision="ics"/>
