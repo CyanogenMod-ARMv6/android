@@ -265,6 +265,7 @@
   <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
 <!--  <project path="system/core" name="androidarmv6/android_system_core" remote="github" revision="ics-plus" /> -->
   <project path="system/extras" name="CyanogenMod/android_system_extras" />
+  <project path="system/media" name="CyanogenMod/android_system_media" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" />
   <project path="system/su" name="CyanogenMod/android_system_su" />
 
@@ -279,11 +280,10 @@
   <!-- END: androidarmv6 repos -->
 
   <!--START: customized repos -->
-  <project path="system/media" name="Alberto96/android_system_media" remote="github" revision="ics" />
   <project path="android" name="Alberto96/android_bcm21553" remote="github" revision="ics-plus" />
   <project path="frameworks/base" name="broadcomCM/android_frameworks_base" remote="github" revision="ics-plus" />
   <project path="system/core" name="broadcomCM/android_system_core" remote="github" revision="ics-plus" />
-  <project path="bionic" name="broadcomCM/android_bionic" remote="github" revision="ics" />
+  <project path="bionic" name="broadcomCM/android_bionic" remote="github" revision="ics"/>
   <project path="system/vold" name="Alberto96/android_system_vold" remote="github" revision="ics" />
   <project path="build" name="BroadcomCM/android_build" remote="github" revision="ics-plus">
     <copyfile src="core/root.mk" dest="Makefile" />
