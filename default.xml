@@ -15,10 +15,7 @@
            remote="github"
            sync-c="true"
            sync-j="4" />
-
-  <project path="build" name="androidarmv6/android_build" revision="ics-plus">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
+           
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
 <!--  <project path="bionic" name="CyanogenMod/android_bionic" /> -->
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
@@ -288,6 +285,9 @@
   <project path="system/core" name="broadcomCM/android_system_core" remote="github" revision="ics-plus" />
   <project path="bionic" name="broadcomCM/android_bionic" remote="github" revision="ics"/>
   <project path="system/vold" name="Alberto96/android_system_vold" remote="github" revision="ics" />
+  <project path="build" name="BroadcomCM/android_build" remote="github" revision="ics-plus">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <!-- END: customized repos -->
   
   <!--START: device repos -->
