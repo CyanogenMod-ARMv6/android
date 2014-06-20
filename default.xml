@@ -295,6 +295,6 @@
   <project path="kernel/samsung/bcm21553-common" name="androidarmv6/android_kernel_samsung_bcm21553-common" remote="github" revision="cm-11.0"/>
   <project path="device/samsung/tassve" name="broadcomCM/android_device_samsung_tassve" remote="github" revision="ics"/>
   <project path="device/samsung/bcm21553-common" name="broadcomCM/android_device_samsung_bcm21553-common" remote="github" revision="ics"/>
-  <project path="vendor/samsung" name="broadcomCM/android_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="broadcomCM/android_vendor_samsung" remote="github" revision="ics" />
   <!-- END: device repos -->
 </manifest>
