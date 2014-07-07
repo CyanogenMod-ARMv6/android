@@ -21,7 +21,6 @@
   <project path="bootable/bootloader/legacy" name="CyanogenMod/android_bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
-  <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="device/common" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -160,7 +159,6 @@
 <!-- <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" /> -->
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" />
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/media/libvideoeditor" name="CyanogenMod/android_frameworks_media_libvideoeditor" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -285,6 +283,8 @@
   <project path="system/core" name="broadcomCM/android_system_core" remote="github" revision="ics-plus" />
   <project path="bionic" name="broadcomCM/android_bionic" remote="github" revision="ics"/>
   <project path="system/vold" name="Alberto96/android_system_vold" remote="github" revision="ics" />
+  <project path="dalvik" name="MSM7225/android_dalvik" remote="github" revision="ics" />
+  <project path="frameworks/compile/slang" name="MSM7225/android_frameworks_compile_slang" remote="github" revision="ics" />
   <project path="build" name="BroadcomCM/android_build" remote="github" revision="ics-plus">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
