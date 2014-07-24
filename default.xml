@@ -271,7 +271,6 @@
   <project path="hardware/msm7k" name="androidarmv6/android_hardware_msm7k" remote="github" revision="ics-plus" />
   <project path="packages/apps/CMFileManager" name="androidarmv6/android_packages_apps_CMFileManager" remote="github" revision="ics-plus" />
   <project path="packages/apps/HwaSettings" name="androidarmv6/android_packages_apps_HwaSettings" remote="github" revision="ics-plus" />
-  <project path="packages/apps/Settings" name="androidarmv6/android_packages_apps_Settings" remote="github" revision="ics-plus" />
   <project path="packages/apps/Trebuchet" name="androidarmv6/android_packages_apps_Trebuchet" remote="github" revision="ics-plus" />
   <project path="vendor/cm" name="androidarmv6/android_vendor_cm" remote="github" revision="ics-plus" />
   <project path="vendor/google" name="androidarmv6/android_vendor_google" remote="github" revision="ics-plus" />
@@ -285,6 +284,7 @@
   <project path="system/vold" name="Alberto96/android_system_vold" remote="github" revision="ics" />
   <project path="dalvik" name="MSM7225/android_dalvik" remote="github" revision="ics" />
   <project path="frameworks/compile/slang" name="MSM7225/android_frameworks_compile_slang" remote="github" revision="ics" />
+  <project path="packages/apps/Settings" name="MSM7225/android_packages_apps_Settings" remote="github" revision="ics-plus" />
   <project path="build" name="BroadcomCM/android_build" remote="github" revision="ics-plus">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
