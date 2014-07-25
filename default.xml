@@ -292,7 +292,7 @@
   
   <!--START: device repos -->
   <project path="hardware/broadcom/brcm_usrlib" name="broadcomCM/android_hardware_broadcom_brcm_usrlib" remote="github" revision="ics"/>
-  <project path="kernel/samsung/bcm21553-common" name="Alberto96/android_kernel_samsung_bcm21553-common-CM9" remote="github" revision="ics"/>
+  <project path="kernel/samsung/bcm21553-common" name="broadcomCM/android_kernel_samsung_bcm21553-common" remote="github" revision="ics"/>
   <project path="device/samsung/tassve" name="broadcomCM/android_device_samsung_tassve" remote="github" revision="ics"/>
   <project path="device/samsung/bcm21553-common" name="broadcomCM/android_device_samsung_bcm21553-common" remote="github" revision="ics"/>
   <project path="vendor/samsung" name="broadcomCM/android_vendor_samsung" remote="github" revision="ics" />
