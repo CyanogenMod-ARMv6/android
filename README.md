@@ -4,27 +4,18 @@ Android for Broadcom BCM21553 Devices - CyanogenMod 9.1
 Getting Started
 ---------------
 
-To get started with Android for ARMv6/CyanogenMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/source/developing.html).
+To get started with Android/CyanogenMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
+To initialize your local repository using the CyanogenMod-ARMv6 trees, use a command like this:
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
-
-    repo init -u git://github.com/mohammad92/android_bcm21553.git -b ics-plus
+    repo init -u git://github.com/CyanogenMod-ARMv6/android.git -b ics
 
 Then to sync up:
 
     repo sync
-    sh vendor/cm/get-prebuilts
-
-Build your device:
-
-    WIP
-
-Flash ZIP:
-
-    out/target/product/DEVICENAME/cm-VERSION-DEVICENAME.zip
-
 
 Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building instructions.
 
+For more information on this Github Organization and how it is structured, 
+please [read the wiki article](http://wiki.cyanogenmod.org/w/Github_Organization)
